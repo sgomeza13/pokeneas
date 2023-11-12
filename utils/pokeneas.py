@@ -24,7 +24,7 @@ def createPokeNeas():
             'name': row['name'],
             'height': row['height_m'],
             'abilities': row['abilities'],
-            'image_url': 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/376.png',
+            'image_url': f'https://storage.googleapis.com/pokeneass/00{index+1}.png',
             'phrase': random.choice(phrases)
         }
         pokeneas.append(pokenea)
